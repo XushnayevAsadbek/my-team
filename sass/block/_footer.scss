@@ -1,0 +1,47 @@
+@media screen and (min-width:1400px) {
+    .footer {
+        background-color: #002529;
+        padding-top: 48px;
+    }
+
+
+    .footer-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 125px;
+        justify-content: space-between;
+
+
+
+
+        &__item {
+            display: flex;
+            gap: 40px;
+            margin-top: 25px;
+            padding-bottom: 55px;
+
+
+            &--link {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 28px;
+                color: #FFFFFF;
+            }
+        }
+
+        &__text {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 25px;
+            color: #FFFFFF;
+            mix-blend-mode: normal;
+            opacity: 0.6;
+        }
+        &__img{
+            padding-left: 50px;
+            padding-bottom: 55px;
+        }
+    }
+}

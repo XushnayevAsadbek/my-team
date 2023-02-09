@@ -1,0 +1,309 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1120px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media (min-width: 1400px) {
+  .header {
+    padding-top: 40px;
+    background: #014E56;
+    padding-bottom: 130px;
+  }
+  .header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+  }
+  .header__nav--item {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+  }
+  .header__nav--item-link {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  .header__nav--link {
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+    padding: 9px 33px 11px 32px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .section1 {
+    background-color: #014E56;
+    background-image: url("../../img/left-img.png");
+    background-repeat: no-repeat;
+    background-position: top left -99px;
+    padding-bottom: 250px;
+  }
+  .section1-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+  .section1-card__text1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    color: #FFFFFF;
+  }
+  .section1-card__text1 span {
+    color: #F67E7E;
+  }
+  .section1-card__img {
+    margin-bottom: 70px;
+  }
+  .section1-card__text2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .section2 {
+    background: #012F34;
+    background-image: url("../../img/about-circle.svg");
+    background-repeat: no-repeat;
+    background-position: bottom 40px right -100px;
+  }
+  .section2-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    padding-bottom: 140px;
+  }
+  .section2-card__left--img {
+    margin-bottom: 50px;
+  }
+  .section2-card__left--heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+  }
+  .section2-card__wrapper {
+    padding-top: 250px;
+  }
+  .section2-card__rigth {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+  }
+  .section2-card__rigth--box-text1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F67E7E;
+    margin-bottom: 16px;
+  }
+  .section2-card__rigth--box-text2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-bottom: 32px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .section3 {
+    background: #004047;
+    padding-bottom: 150px;
+    background-image: url(../../img/section3-img.png);
+    background-repeat: no-repeat;
+    background-position: top left -20px;
+  }
+  .section3-heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 140px;
+  }
+  .section3-heading span {
+    color: #79C8C7;
+  }
+  .section3-card {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+    position: relative;
+  }
+  .section3-card-img {
+    position: absolute;
+    top: -45px;
+    left: 100px;
+  }
+  .section3-card-img1 {
+    position: absolute;
+    left: 47.03%;
+    right: 46.94%;
+    top: -45px;
+    bottom: 82.11%;
+  }
+  .section3-card-img2 {
+    position: absolute;
+    left: 81.26%;
+    right: 12.7%;
+    top: -45px;
+    bottom: 82.11%;
+  }
+  .section3-card__text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .section3-card__heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+  }
+  .section3-card__text1 {
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .section3-card__img1 {
+    position: absolute;
+    left: 9.97%;
+    right: 81.44%;
+    top: 76.68%;
+    bottom: 3.51%;
+    margin-top: 42px;
+  }
+  .section3-card__img2 {
+    position: absolute;
+    left: 47.21%;
+    right: 47.21%;
+    top: 76.68%;
+    bottom: 3.51%;
+    margin-top: 42px;
+  }
+  .section3-card__img3 {
+    position: absolute;
+    left: 81.44%;
+    right: 12.97%;
+    top: 76.68%;
+    bottom: 3.51%;
+    margin-top: 42px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .section4 {
+    background: #F67E7E;
+    background-image: url("../../img/section4-img.png");
+    background-repeat: no-repeat;
+    background-position: top 56px left;
+  }
+  .section4 .section4-box {
+    display: flex;
+    gap: 260px;
+    padding: 76px 0;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .section4 .section4-box__heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #012F34;
+  }
+  .section4 .section4-box__btn {
+    border: 2px solid #012F34;
+    border-radius: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #012F34;
+    padding: 9px 33px 11px 32px;
+    background-color: #F67E7E;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .footer {
+    background-color: #002529;
+    padding-top: 48px;
+  }
+  .footer-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 125px;
+    justify-content: space-between;
+  }
+  .footer-wrapper__item {
+    display: flex;
+    gap: 40px;
+    margin-top: 25px;
+    padding-bottom: 55px;
+  }
+  .footer-wrapper__item--link {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+  }
+  .footer-wrapper__text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+  }
+  .footer-wrapper__img {
+    padding-left: 50px;
+    padding-bottom: 55px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,64 @@
+@media screen and (min-width:1400px) {
+    .section2 {
+        background: #012F34;
+        background-image: url("../../img/about-circle.svg");
+        background-repeat:no-repeat;
+        background-position:  bottom 40px  right -100px ;
+    }
+
+    .section2-card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 100px;
+        padding-bottom: 140px;
+   
+
+
+
+        &__left {
+            &--img {
+                margin-bottom: 50px;
+            }
+
+            &--heading {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 48px;
+                color: #FFFFFF;
+
+            }
+        }
+        &__wrapper{
+            padding-top: 250px;
+        }
+
+        &__rigth {
+            display: flex;
+            align-items: center;
+            gap: 23px;
+
+            &--box-text1 {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 28px;
+                color: #F67E7E;
+                margin-bottom: 16px;
+            }
+
+            &--box-text2 {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 15px;
+                line-height: 25px;
+                color: #FFFFFF;
+                mix-blend-mode: normal;
+                opacity: 0.8;
+                margin-bottom: 32px;
+            }
+        }
+    }
+
+}
